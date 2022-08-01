@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+     background: rgba(35, 37, 44, 1);
+     padding-top: 53px;
+     padding-bottom: 44px;
+}
+#mainContent {
+    background: rgba(26, 27, 33, 1);
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 116px;
+    margin-right: 117px;
+}
+#infoTitel {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.subTitel {
+    color: #F3BF99;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;  
+}
+.tekst {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 8.81px;
+}
+button {
+    background: rgba(255, 255, 255, 1);
+    height: 34px;
+    width: 247px;
+    left: 151px;
+    top: 20px;
+    border-radius: 6px;
+    padding: 9px, 13px, 9px, 11px;
+    color: rgba(55, 65, 81, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#icon {
+    width:10.8px;
+    height: 9.6px;
+    background: white;
+}
+h3 {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#ptekst{
+    margin-bottom: 25px;
+}
+#footer {
+    background: rgba(22, 22, 25, 1); 
+    height: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 19.5px 48.5px 48.5px 19.5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+svg {
+    width:25px;
+    height: 25px;
+    color: rgba(145, 142, 155, 1);
+}
+img {
+    border-radius: 10px 10px 0px 0px;
+}
