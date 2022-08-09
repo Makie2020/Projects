@@ -1,0 +1,1 @@
+$( "#lijn" ).draggable({ axis: "x" });

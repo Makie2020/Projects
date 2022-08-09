@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+  }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    background-color: #979393;
+    color: white;
+    text-align: center;
+  } 
+span {
+    animation: animate 
+    1.5s linear infinite;
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+footer {
+    flex-shrink: 0;
+    background-color: white;
+    overflow: hidden;
+  }
+.content {
+    flex: 1 0 auto;
+  }
+.buttons {
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+#dial {
+    width: 80%;
+    height: auto;
+}   
+.knop {
+    width: 90px;
+    height: 50px;
+    transform: scale(.7);
+    border: none;   
+    opacity: 0.7;
+}
+.knop:hover {
+    opacity: 1;
+}
+#firstButton {
+    background: url('./images/logos.png') 0px -430px; 
+    width: 60px;
+    height: 45px;
+}
+#secondButton {
+    background: url('./images/logos.png') -185px -190px;
+    width: 114px;
+}
+#thirdButton {
+    background: url('./images/logos.png') -77px -270px;
+    height: 30px;
+    width: 138px;
+    margin-top: 10px;
+}
+#fourthButton {
+    background: url('./images/logos.png') -215px -250px;
+    width: 84px;
+}
+#fifthButton {
+    background: url('./images/logos.png') -75px -732px;
+    transform: scale(0.5);
+    width: 80px;
+    height: 43px;
+}
+#sixthButton {
+    background: url('./images/logos.png') -189px -537px;
+    width: 70px;
+}
+#seventhButton {
+    background: url('./images/logos.png') -190px -484px;
+    width: 80px;
+}
+#eightButton {
+    background: url('./images/logos.png') -150px -712px;
+    transform: scale(0.6);
+    height: 33px;
+    margin-top: 5px;
+}
+.radio{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+#lijn{
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 99%;
+    top: 0px;
+    left: 50%;
+    background-image: url("./images/radio/needle.jpg");
+    cursor: pointer;
+}
+#footerImage {
+    float: right;
+}
