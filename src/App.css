@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  height: 48px;
+  color: rgba(46, 0, 57, 1);
+}
+h1{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: left;  
+}
+svg {
+  height: 15px;
+  width: auto;
+}
+.card{
+  background: rgba(46, 0, 57, 1);
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 21px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+select, input, #outcomeAnswer, #outcome, #inputLength {
+  background: rgba(46, 0, 57, 1);
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: none;
+  text-decoration: none !important;
+  }
+select, input {
+  border-bottom: 2px  rgba(255, 255, 255, 1) solid;
+  height: 32px;
+  }
+input {
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  }
+option, select {
+  font-family: 'Poppins', sans-serif;
+  }
+.container {
+  display: flex;
+  flex-direction: row;
+  }
+#heart {
+  font-size: 40px;
+  }
+#answerBox {
+  align-items: right;
+  margin-right: 10px;
+}
+#outcomeAnswer {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-right: 5px;
+}
+button {
+  height: 15.5px;
+  width: 17.5px;
+  background: rgba(46, 0, 57, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+h2{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(103, 103, 103, 1);
+  text-align: left;
+  padding-top: 43px; 
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(46, 0, 57, 1);
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 320px) {
+  nav{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  h3{
+    padding-top: 12px;
+    margin-left: 11px;
+  }
+  svg {
+    margin-right: 5px;
+  }
+  #converter {
+    flex-direction: column;
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 21px;
+    margin-top: 16px;
+    width: 80%;
+  }
+  .card{
+    height: 209px;
+    max-width: 280px;
+    margin-left: 17px;
+  }
+  #secondLine {
+    height: 38px;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  #heartBtn {
+    padding-left: 21.25px;
+    margin-top: 8px;
+    height: 14.5px;
+    width: 17.5px;
+  }
+  #outcome {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  #answerBox {
+    padding-right: 15px;
+  }
+  #inputLength {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+  h2{
+    padding-left: 20px;
+  }
+  img{
+   width: 90%;
+  }
+  .images{
+    text-align: center;
+  }
+  footer {
+    padding: 5%;
+    font-size: 10px;
+    font-style: normal;
+  }
+}
+@media only screen and (min-width: 321px) {
+  h3 {
+    padding: 20px 0px 20px 38px;
+  }
+  svg {
+    margin-right: 16.67px;
+  }  
+  nav, h2{
+    margin-left: 25%;
+  }
+  .card{
+    height: 193px;
+    width: 714px;
+    margin: 0px 0px 0px 25%;
+  }
+  #firstLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #converter {
+    justify-content: space-between;
+  }
+  #convert, #inputConverter {
+    flex-direction: row;
+    margin: 0px 168px 0px 38px;
+  }
+  #convert {
+    margin-left: 38px;
+  }
+  #secondLine {
+    padding: 20px 95px 0px 38px;
+    justify-content: space-between;
+    }
+  #outcome, #inputLength {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  #inputLength{
+    margin-top: 5px;
+  }
+  #outcome {
+    padding-top: 10px;
+  }
+  footer{
+    padding: 1%;
+  }
+  .images {  
+    display: grid;
+    grid-template-columns: 349px 349px;
+    grid-template-rows: 38px 38px 38px 38px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    margin-left: 25%;
+    margin-bottom: 436px;
+    gap: 21px 16px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "g h";
+  }
+  .a { grid-area: a; }
+  .b { grid-area: b; }
+  .c { grid-area: c; }
+  .d { grid-area: d; }
+  .e { grid-area: e; }
+  .f { grid-area: f; }
+  .g { grid-area: g; }
+  .h { grid-area: h; }
+}
